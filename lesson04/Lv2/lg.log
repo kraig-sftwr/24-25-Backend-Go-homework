@@ -1,0 +1,46 @@
+user login.
+user conducted operation A.
+User conducted operation B.
+User logout.
+
+user login.
+at time: 2025-10-30 12:59:27.4102084 +0800 CST m=+0.000645601, timestamp: 1761800367user conducted operation A.
+at time: 2025-10-30 12:59:29.4270987 +0800 CST m=+2.017535901, timestamp: 1761800369User conducted operation B.
+at time: 2025-10-30 12:59:30.428015 +0800 CST m=+3.018452201, timestamp: 1761800370User logout.
+at time: 2025-10-30 12:59:40.4296209 +0800 CST m=+13.020058101, timestamp: 1761800380
+user login.
+at time: 2025-10-30 13:01:17.8653687 +0800 CST m=+0.000560801, timestamp: 1761800477  user conducted operation A.
+at time: 2025-10-30 13:01:19.8841945 +0800 CST m=+2.019386601, timestamp: 1761800479  User conducted operation B.
+at time: 2025-10-30 13:01:20.8854285 +0800 CST m=+3.020620601, timestamp: 1761800480  User logout.
+at time: 2025-10-30 13:01:30.8871498 +0800 CST m=+13.022341901, timestamp: 1761800490  user login.
+
+at time: 2025-10-30 13:03:40.6172345 +0800 CST m=+0.000505501, timestamp: 1761800620  
+user conducted operation A.
+
+at time: 2025-10-30 13:03:42.6375319 +0800 CST m=+2.020802901, timestamp: 1761800622  
+User conducted operation B.
+
+at time: 2025-10-30 13:03:43.638461 +0800 CST m=+3.021732001, timestamp: 1761800623  
+User logout.
+
+at time: 2025-10-30 13:03:53.6395385 +0800 CST m=+13.022809501, timestamp: 1761800633
+
+user login.
+at time: 2025-10-30 13:07:40.4685595 +0800 CST m=+0.000820901, timestamp: 1761800860  
+user conducted operation A.
+at time: 2025-10-30 13:07:42.4886007 +0800 CST m=+2.020862101, timestamp: 1761800862  
+User conducted operation B.
+at time: 2025-10-30 13:07:43.4900825 +0800 CST m=+3.022343901, timestamp: 1761800863  
+User logout.
+at time: 2025-10-30 13:07:53.4909056 +0800 CST m=+13.023167001, timestamp: 1761800873  
+user login.at time: 2025-11-01 10:23:27.072547 +0800 CST m=+0.029772001, timestamp: 1761963807  
+user conducted operation A. at time: 2025-11-01 10:23:29.0741675 +0800 CST m=+2.031392501, timestamp: 1761963809  
+User conducted operation B. at time: 2025-11-01 10:23:30.0761291 +0800 CST m=+3.033354101, timestamp: 1761963810  
+User logout. at time: 2025-11-01 10:23:40.0799021 +0800 CST m=+13.037127101, timestamp: 1761963820
+
+
+//最终版
+user login. at time: 2025-11-01 11:05:31.5796092 +0800 CST m=+0.042691601, timestamp: 1761966331  
+user conducted operation A. at time: 2025-11-01 11:05:33.5810129 +0800 CST m=+2.044095301, timestamp: 1761966333  
+User conducted operation B. at time: 2025-11-01 11:05:34.5829857 +0800 CST m=+3.046068101, timestamp: 1761966334  
+User logout. at time: 2025-11-01 11:05:44.5844637 +0800 CST m=+13.047546101, timestamp: 1761966344  
