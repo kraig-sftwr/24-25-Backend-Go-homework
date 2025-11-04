@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"io"
 	"os"
@@ -8,8 +9,11 @@ import (
 )
 
 func main() {
+	filePtr := flag.String("input_logfile", "lg.log", "log file path")
+	flag.Parse()
+
 	//open the .log file, or create one
-	logfile, err := os.OpenFile("lg.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	logfile, err := os.OpenFile(*filePtr, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		fmt.Println("Error opening/creating:", err)
 		return
@@ -25,11 +29,11 @@ func main() {
 
 	//simulate user operation
 	fmt.Fprintf(mulw, "user login. ") //user login
-	time.Sleep(2 * time.Second)       //sleep..
+	//ime.Sleep(2 * time.Second)       //sleep..
 	fmt.Fprintf(mulw, "user conducted operation A. ")
-	time.Sleep(1 * time.Second)
+	//time.Sleep(1 * time.Second)
 	fmt.Fprintf(mulw, "User conducted operation B. ")
-	time.Sleep(10 * time.Second)
+	//time.Sleep(10 * time.Second)
 	fmt.Fprintf(mulw, "User logout. ")
 
 }
